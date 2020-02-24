@@ -1,0 +1,346 @@
+body,html{
+  height: 100%;
+  margin: 0;
+}
+hr{
+  border-color: white;
+  box-shadow: 2px 2px 12px #0040ff;
+}
+
+/* website theme color */
+.theme-0{
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */  
+}
+.theme-1{
+  background: rgb(0,0,0); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */  
+}
+
+/* used for the standard theme, fonts*/
+.border-theme{
+  border-color: white;
+  box-shadow: 0 0 10px #0040ff;
+}
+.body-textL{
+  color: white;
+  font-size: 1rem;
+  font-family: "Courier New";
+}
+.body-textD {
+  color: #0d0d0d;	
+  font-size: 1rem;
+  font-family: "Courier New"; 
+}
+.title-theme {
+  color: white;
+  font-family: 'Varela Round';
+  text-shadow: 0px 0px 8px #0040ff;
+}
+@media (min-width: 768px) {
+  .title-theme {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .body-textD {
+    color: #0d0d0d;	
+	font-size: 1.25rem;
+	font-family: "Courier New";
+  }
+  .body-textL{
+    color: white;
+    font-size: 1.25rem;
+    font-family: "Courier New";
+  }
+  .img-d{
+    margin: 1%;
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .title-theme  {
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+  } 
+  .body-textD {
+    color: #0d0d0d;	
+	font-size: 1.25rem;
+	font-family: "Courier New";
+  }
+  .body-textL{
+    color: white;
+    font-size: 1.25rem;
+    font-family: "Courier New";
+  }
+  .img-d{
+    margin: 1%;
+    width: 80%;
+    height: 80%;
+  }
+}
+
+/* navbar setting(collapse)*/
+button.navbar-toggler.navbar-toggler-right {
+  border-color: white;
+  box-shadow: 0px 0px 10px #0040ff;
+}
+  /**inside menu button(collapse)**/
+.navbar-dark span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+/* mvanbar setting(collapse)*/
+
+ /* navbar color (scroll)*/
+.fixed-top.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+}
+/* navbar font setting*/
+.navbar-brand  h1{
+  color: white;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 8px #0040ff;
+}
+.nav-font h6 {
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 10px #0040ff;  
+}
+/* behöver fixas!!!!!!!!!!!!!!!
+.nav-font h6:hover{
+  color: black;
+}*/
+.menu-button span{
+  color: white;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 0 8px #0040ff;
+}
+/* navbar font setting*/
+
+/*  header */
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../img/g.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.masthead h1{
+  padding-top: 10px;
+  font-weight: 700;
+  font-family: 'Varela Round';	
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  text-shadow: 2px 2px 8px #0040ff;
+}
+.masthead h2{
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 0 8px #0040ff;	
+}
+
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+	text-shadow: 2px 2px 12px #0040ff;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.5rem;
+	text-shadow: 2px 2px 12px #0040ff;
+  }
+  .masthead h2{
+    font-size: 2rem;
+	text-shadow: 0 0 10px #0040ff;
+  }  
+}
+.masthead a {
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  border: 0;
+}
+
+.B {
+  background-color: #e6e6e6;
+}
+
+.B:hover {
+  background-color: white;
+}
+
+.B:focus {
+  background-color: white;
+}
+/* header */
+
+/* about-section */
+.about-section  {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */  
+}
+.sections{
+  padding-top: 1rem;
+  padding-bottom: 1rem;	
+}
+.about-section h6{
+  color: white;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0px 0px 8px #0040ff;  
+}
+.about-section h3{
+  color: black;
+  font-weight: 900;
+  font-family: "Arial"; 
+  text-shadow: 0px 0px 8px  #0040ff; 
+}
+.img-me{
+  margin: 1%;
+  width: 50%;
+}
+.skills-icon {
+  background-color: transparent;
+  height: 150px;
+  width: 150px;
+  margin: 10px auto 10px auto;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 2px 2px 12px blue;
+  text-align: center; 
+  line-height: 150px;  
+}
+.img-d{
+  margin: 1%;
+  width: 100%;
+}
+/* about-section*/
+
+/* portfolio-section */
+.portfolio-section  {
+  padding: 1rem 0 1rem 0;
+  background: rgb(0,0,0); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+	/** skills bars **/
+.html-bar {width: 90%;}
+.css-bar {width: 80%;}
+.js-bar{width: 70%;}
+.jq-bar {width: 60%;}
+.B-bar{width: 70%;}
+
+	/** card image **/
+.card-img{
+	max-width: 700px;
+	max-height: 300px;	
+}
+.modal-img{
+	width: 100%;
+	height: 100%: 
+}
+.card-imgg{
+	height: 700px: 
+}
+	/** carousel-control **/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-image: none;
+}
+.carousel-control-next-icon:after{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+/* portfolio-section */
+
+/* contact-section */
+.contact-section  {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */  
+}
+.contact-section h1{
+  color: white;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 8px #0040ff;
+}
+.contact-section h3{
+  color: white;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 8px #0040ff;
+  padding-top: 0.5 rem;
+}
+.contact-section label{
+  color: white;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 8px #0040ff;
+}
+/* contact-section */
+
+/* footer */
+.footer{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: black;
+}
+#s-d{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.s-f{
+	padding-left: 10px;
+	font-size: 1.5rem;
+	color: white;
+}
+/* footer */
