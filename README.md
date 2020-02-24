@@ -1,2 +1,2 @@
-# Portfolio.github.io
+# Portfolio
 Personal website
